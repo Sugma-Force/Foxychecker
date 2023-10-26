@@ -74,7 +74,7 @@ def process():
 			checked+=1
 		except Exception as e:
 			pass
-		print('||', 'Good proxies:', good, '||', 'Bad proxies:', bad, '||', 'Checked', 'Proxies', checked, '||', '\r', end='', flush=True)
+		print('||', 'Good proxies:', good, '||', 'Bad proxies:', bad, '||', 'Checked proxies:', checked, '||', '\r', end='', flush=True)
 	return
 
 print(ASCII)
